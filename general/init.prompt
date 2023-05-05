@@ -2,12 +2,10 @@ You're going to be provided a set of instructions. Once you receive the prompt "
 Create a C# terminal application that simulates a game called "Funky Real Estate Royale". The game involves multiple players who buy properties on a game board and earn money based on the value of their properties.
 In this game, there are 10 players who start with $20 each. The game board is a 25x15 grid, and each player is represented by a letter (A-J). The game lasts for 30 rounds, and after each round, the players earn money based on the total value of their properties. The player with the highest property value at the end of the game wins.
 Here's how the game works:
-At the beginning of the game, each player is given a random name (you can read from a file containing a list of names).
 Each turn, players can buy up to 5 unoccupied properties on the game board. The cost to buy a property is $10 + $5 for every adjacent occupied property.
 After each round, players' money increases by the total value of their properties.
 The game ends after 30 rounds, and the player with the highest property value wins.
 You should display the game board, player information, and a bar chart showing the value of each player's properties after each round.
-The visual aspects should preload and the previous information should be cleared away when displaying the new information, so that it looks more like an animation.
 Put a pause of 1 second between each round.
-Only return the game code.
+Anything that is not game code should be put within C# quotes.
 End Prompting
