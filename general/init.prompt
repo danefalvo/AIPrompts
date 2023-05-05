@@ -1,4 +1,4 @@
-Your going to be provided some instructions as individual prompts. I want you to consider each of the prompts, but I don't want a response until you receive the instruction "End Prompting"
+Your going to be provided some instructions as individual prompts. Each individual Prompt should be considered as more information for a single prompt. Once you receive the prompt "End Prompting" look at all the instructions and react as if it was a single prompt.
 Create a C# console application that simulates a game called "Funky Real Estate Royale". The game involves multiple players who buy properties on a game board and earn money based on the value of their properties. Here's the prompt:
 Create a console application that simulates a game called "Funky Real Estate Royale". In this game, there are 10 players who start with $20 each. The game board is a 25x15 grid, and each player is represented by a letter (A-J). The game lasts for 30 rounds, and after each round, the players earn money based on the total value of their properties. The player with the highest property value at the end of the game wins.
 Here's how the game works:
