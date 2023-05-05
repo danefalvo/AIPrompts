@@ -1,5 +1,6 @@
 Keep reading the following lines but don't respond until you receive the prompt "End Prompting". Once you receive "End Prompting" consider all prompts (except for this one) as a single prompt.
 Create the C# code that for a game called "Funky Real Estate Royale". The game involves multiple players who buy properties on a game board and earn money based on the value of their properties.
+Return the entire codeblock as plaintext.
 The namespace should be 'FunkyRealEstate' and the class should be 'Program'
 In this game, there are 10 players who start with $20 each. The game board is a 25x15 grid, and each player is represented by a letter (A-J). The game lasts for 30 rounds, and after each round, the players earn money based on the total value of their properties. The player with the highest property value at the end of the game wins.
 Here's how the game works:
