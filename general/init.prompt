@@ -8,4 +8,6 @@ The game ends after 30 rounds, and the player with the highest property value wi
 You should display the game board, player information, and a bar chart showing the value of each player's properties after each round.
 Put a pause of 1 second between each round.
 Anything that is not game code should be put within C# quotes.
+Before returning the game code, make sure there are no syntax or logic errors.
+Please provide the response in raw text.
 End Prompting
