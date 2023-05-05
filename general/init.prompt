@@ -1,5 +1,6 @@
-You're going to be provided a set of instructions. Once you receive the prompt "End Prompting" look at all the instructions you've received and react as if it was a single prompt.
-Create a Csharp game that simulates a game called "Funky Real Estate Royale". The game involves multiple players who buy properties on a game board and earn money based on the value of their properties.
+Keep reading the following lines but don't responsd until you receive the prompt "End Prompting". Once you receive "End Prompting" conside all prompts (except for this one) as a single prompt.
+Create a C# game that simulates a game called "Funky Real Estate Royale". The game involves multiple players who buy properties on a game board and earn money based on the value of their properties.
+The namespace should be 'FunkyRealEstate' and the class should be 'Program'
 In this game, there are 10 players who start with $20 each. The game board is a 25x15 grid, and each player is represented by a letter (A-J). The game lasts for 30 rounds, and after each round, the players earn money based on the total value of their properties. The player with the highest property value at the end of the game wins.
 Here's how the game works:
 Each turn, players can buy up to 5 unoccupied properties on the game board. The cost to buy a property is $10 + $5 for every adjacent occupied property.
@@ -7,8 +8,7 @@ After each round, players' money increases by the total value of their propertie
 The game ends after 30 rounds, and the player with the highest property value wins.
 You should display the game board, player information, and a bar chart showing the value of each player's properties after each round.
 Put a pause of 1 second between each round.
-Anything that is not game code should be put within C# quotes.
-Before you respond, make sure there are no errors with the code and that your response would build successfully if it was a cs file.
-Please provide the response in raw text.
+Anything that is not game code should have '//' at the start of the line, so that it will not execute.
+Before you respond, make sure there are no errors with the code and that your response would build successfully if it was a C#.
 Please make sure to include all libraries necessary (for example 'System.Text').
 End Prompting
