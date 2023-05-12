@@ -23,4 +23,4 @@ jobs:
       working-directory: Hotels
     - name: Build
       run: dotnet build --no-restore
-  
+      working-directory: Hotels
